@@ -1,0 +1,21 @@
+.parent {
+    background-color: hsl(200, 100%, 20%);
+    height: 350px;
+    width: 350px;
+}
+
+.child {
+    background-color: red;
+    height: 50%;
+    width: 50%;
+    /* transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 1s; */
+    transition: all 1s cubic-bezier(1,0,0,1.21);
+}
+
+.parent:hover .child {
+    transform: translateX(100%);
+    background-color: yellow;
+}
