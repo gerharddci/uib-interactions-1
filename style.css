@@ -5,8 +5,8 @@
 }
 
 .child {
-    background-color: red;
-    /* background-color: green; */
+    /* background-color: red; */
+    background-color: green;
     height: 50%;
     width: 50%;
     /* transition-property: transform;
